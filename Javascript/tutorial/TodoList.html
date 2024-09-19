@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROJECT TODO LIST</title>
+    <style>
+
+    </style>
+</head> 
+<body>
+    <div class="div" style="text-align: center;">
+
+    <h1  >Todo App</h1>
+
+    <input type="text" id="Todoinput" placeholder="Enter Todo Here" style="padding: 10px;">
+
+    <input type="date" style=" padding: 10px; margin-left: 20px;" >
+
+    <button style="background-color: rgb(216, 241, 26); padding: 10px; margin-left: 20px;" onclick="addtodo();">ADD</button>
+    <br>
+
+    <p id="todo-iteam"></p>
+    
+
+    <script>
+        let todolist =[];
+        displayIteams();
+
+
+        function addtodo(){
+            let inputElement =document.querySelector('#Todoinput');
+            let todoiteam =inputElement.value;
+            console.log(todoiteam);
+            todolist.push(todoiteam);
+            inputElement.value='';
+            displayIteams();
+            
+        }
+        function displayIteams (){
+            let displayElement = document.querySelector('#todo-iteams');
+            for(let i=0; i<todolist.length; i++){
+                displayElement.innerText= displayElement.innerText + todolist[i];
+            }
+
+            
+        }
+
+    </script>
+</div>
+</body>
+</html>

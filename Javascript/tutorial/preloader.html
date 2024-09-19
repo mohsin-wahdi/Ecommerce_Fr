@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preloader</title>
+    <style>
+        #content{
+            display: none;
+            
+        }
+        #content img{
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div id="loader" class="d-flex justify-content-end"  >
+        <img class="d-flex align-items-end" src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExaXFpYzRoMXhvNTFlN3BzN3EwNTR5d2JpMnJ6ZmQ4ZTRjaGg2YW82OCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/wvtt4mtViPOSrLYNFh/giphy.gif"  alt="" style="padding-left: 500px;  padding-top: 100px;">
+    </div>
+
+    <div id="content">
+    <img src="about-2.png" alt=""><br>
+    <img src="about-2.png" alt="">
+</div>
+
+<div class="loader"></div>
+    <script>
+        window.onload = function(){
+            document.getElementById('loader').style.display='none';
+            document.getElementById('content').style.display='block';
+        };
+        setTimeout(()=>{
+            // document.getElementById('loader').style.display='none';
+            // document.getElementById('content').style.display='block';
+        },2000)
+
+        
+    </script>
+</body>
+
+</html>

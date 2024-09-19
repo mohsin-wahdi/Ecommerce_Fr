@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            background-color: yellow;
+            border: 2px solid;
+            
+
+            /* flexbox propety */
+            flex-direction:column-reverse;
+            display: flex;
+
+            /* flex-direction: column  row walaa item coulumn me ho jata hai */
+            flex-direction:row;
+            
+            
+            /* wrap  */
+            /* flex-wrap: nowrap; size increase and decease  */
+            flex-wrap:wrap;
+
+            /* justify-content: right,left,end,center; */
+            justify-content:center;
+
+            /* justify-content: space-around,space-between; */
+            justify-content:space-evenly;
+            
+            /* align-items: center,stretch; */
+            align-items:center;
+        }
+        .item{
+            
+            height: 200px;
+            width: 200px;
+            border: 2px solid black;
+            margin: 2px;
+            padding: 2px;
+
+            
+            
+        }
+        #box1{
+            background-color: aqua;
+            
+            
+            /* box  order property  mtlb 1 ko 3 me bhi shift kr sakte hai   */
+            order: 2;
+
+            /* flex shrink mtlb sb se phela chota hona */
+            flex-shrink: 2;
+
+            /* flex grow   mtlb last box ka size increase hona   */
+            flex-grow: 3;
+            
+           
+           
+        }
+
+        #box2{
+            background-color: red;
+            order: 2;
+
+             /* flex flex-basis:; mtlb dimension barana */
+
+            flex-basis: 200px;
+        }
+        #box3{
+            background-color: pink;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item" id="box1">A</div>
+        <div class="item" id="box2">B</div>
+        <div class="item" id="box3">C</div>
+    </div>
+    
+</body>
+</html>

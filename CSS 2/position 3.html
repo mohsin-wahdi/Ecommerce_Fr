@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Document</title>
+    <style>
+        .first{
+           height: 8000px;
+           background: yellow;
+        }
+        div{
+            border: solid 5px rgb(16, 13, 13);
+            position: left;
+            height: 300px;
+            
+
+        }
+       .image2{
+        /* relative means right se thora position change ho jaye gah  */
+        position: relative;
+        top: 300px;
+        right: 200px;
+        left: 500px;
+    }
+
+    /* fixed position  */
+    .image4{
+        position: fixed;
+    }
+    
+    .image3{
+        /* sticky position */
+        position: sticky;
+        top: 100px;
+    }
+    .box{
+        background-color: aqua;
+        height: 5000px;
+    }
+
+    </style>
+</head>
+<body>
+    <div class="first">
+        <img src="aman.jpg" alt="aman" width="300px" height="300px" class="image1"/>
+        <img src="aman.jpg" alt="logo" width="300px" height="300px" class="image2" />
+        <img src="jeans.webp" alt="jeans" width="300px" height="300px" class="image3"/>
+        <img src="home.webp" alt="home" width="300px" height="300px"  class="image4" />
+
+    </div>
+    <div class="box"></div>
+</body>
+</html>

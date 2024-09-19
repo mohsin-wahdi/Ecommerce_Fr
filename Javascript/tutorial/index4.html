@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object </title>
+
+    <script>
+        let product = {
+            name :'jeans',
+            size : 'S',
+            fit :'Slim Fit',
+            'delivery-time':'same Day',
+
+        };
+        console.log(product.name)
+        let copyproduct = product;
+        console.log(product.size);
+        copyproduct.size ='M';
+        console.log(product.size);
+
+        // backtis notation
+        console.log(product['delivery-time']);
+
+        // de structuring Methods
+        let items = {
+            message :'Good job',
+            status : 'Complete',
+        };
+
+        let{message,status}=items;
+        console.log(message);
+        console.log(Status);
+
+
+    </script>
+
+
+</head>
+<body>
+
+</body>
+</html>

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 1 -->
+    <!-- <span style="font-size: 40px;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem nobis tempore ullam possimus unde dolor doloremque dolore inventore. Sed, velit! Qui fugit illo omnis ipsam quisquam. Quos aspernatur corporis fugit?</span><br>
+    <button class="hide">hide</button>
+    <button class="show">show</button> -->
+    <!-- 1 end -->
+
+    <!-- 2 -->
+<!--     
+    <button class="open">open</button>
+    <button class="close">close</button> -->
+    <div id="ml">mouseenter/mouseleve</div>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. At suscipit voluptatibus eligendi, asperiores repellendus voluptates dolorem eum ducimus cumque quo?</p>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+<script>
+    $(document).ready(function(){
+
+        $('#ml').mouseenter(function(){
+            $('p').hide()
+        })
+
+        
+        $('#ml').mouseleave(function(){
+            $('p').show()
+        })
+
+   
+    console.log('hello')
+    // 1
+    $('.hide').click(function(){
+        // $('span').hide()
+        // $('span').slideUp(1000)
+        //  $('span').slideToggle(1000)
+        //  $('span').fadeOut(1000)
+         $('span').fadeToggle(1000)
+
+
+
+
+    })
+    $('.show').click(function(){
+        // $('span').show()
+        // $('span').slideDown(1000)
+         $('span').fadeIn(1000)
+
+    })
+
+    $('span').mouseenter(function(){
+        // $('span').hide(1000)
+        $('span').slideUp(1000)
+        
+    })
+
+    
+    $('span').mouseleave(function(){
+        // $('span').show()
+         $('span').slideDown(1000)
+
+    })
+    // 1 end
+
+
+    // 2 start
+    $('.open').click(function(){
+        // $('p').hide()
+    })
+
+    $('.close').click(function(){
+        // $('p').show()
+    })
+
+    $('.open').click(function(){
+        // $('p').slideUp()
+    })
+
+    $('.close').click(function(){
+        // $('p').slideDown()
+    })
+
+
+    $('.open').mouseenter(function(){
+        // $('p').hide()
+    })
+
+    $('.open').mouseleave(function(){
+        // $('p').show()
+    })
+
+    $('.open').click(function(){
+        // $('p').fadeIn(1000)
+    })
+
+    $('.close').click(function(){
+        // $('p').fadeOut(2000)
+    })
+
+    $('.open').mouseenter(function(){
+        $('p').fadeIn()
+    })
+    
+    $('.close').mouseleave(function(){
+        $('p').fadeOut()
+    })
+
+    $('p').animate({
+        opacity:0.7,
+        width:'200px'
+    },1000)`
+
+    $('p').text('hello World')
+
+    
+})
+
+</script>
+</html>

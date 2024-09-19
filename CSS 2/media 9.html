@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            border: solid 3px red ;
+            
+            background-color: pink;
+            display: flex;
+            flex-direction: row;
+            width: 500px;
+        }
+        .boxleft{
+            border: 1px aqua solid;
+            
+            background-color: rgb(152, 188, 143);
+            width: 50%;
+        }
+        .boxright{
+            background-color: yellow;
+            border: 1px aqua solid;
+            width: 50%;
+        }
+        p{
+            border: solid 5px rgb(174, 54, 14);
+        }
+        img{
+            width: 250px;
+        }
+        @media(max-width:500px){
+            .container{
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="boxleft">
+            <p>Text 1</p>
+            <p>Text 2</p>
+        </div>
+        <div class="boxright">
+            <img src="logo.jpg" />
+
+        </div>
+    </div>
+</body>
+</html>

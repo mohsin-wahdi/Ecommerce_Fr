@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>password Validitio</title>
+</head>
+<body>
+     <h1>password validation in javascript</h1>
+    <form onsubmit="return myfun()">new password <input type="password" name="" id="password" value="">
+        <span  id="message"></span><br>confirm password <input type="password" name="" id="passwords" value=""><br>
+        
+        <span  id="messages"></span><br>
+        <input type="submit" value="submit">
+        <script>
+            function myfun(){
+
+                let a= document.getElementById('password').value
+                let b= document.getElementById('passwords').value
+        
+                if(a==""){
+                    document.getElementById('message').innerHTML ="please enter  password"
+                    return false
+                }
+                else if(a.length<3){
+        
+                document.getElementById('message').innerHTML ="plaese enter 3 word"
+                return false
+            }
+                 else if(a!=b){
+                    document.getElementById('messages').innerHTML ="password not match"
+                return false
+        
+                 }
+          }
+        </script>
+    
+</body>
+</html>

@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+      .main
+      {
+        padding-left: 15%;
+        padding-right: 15%;
+      }
+      header{
+        width: 100%;
+        height: 100vh;
+        z-index: -1;
+        background-color: rgba(0, 0, 0, 0.7);
+    
+      }
+      video{
+        width: 100%;
+        height: 100vh;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        object-fit: cover;
+        background-attachment: fixed;
+
+
+    }
+    .head{
+      width: 100%;
+      height: 88vh;
+    }
+    .para{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    #icon{
+      padding-top: 7%;
+    }
+    
+
+    .card:hover{
+      background-color: #00798C;
+    }
+
+    a{
+      text-decoration: none;
+      padding-bottom: 5%;
+      color: black;
+    }
+    .card-1:hover
+    {
+      transition: 2s;
+      transform: translateY(-10px);
+
+    }
+    #submit:hover{
+        background-color:#00798C ;
+    }
+    ::placeholder{
+      font-size: 14px;
+    }
+    .tel{
+      color: red;
+    }
+    .main-1 a{
+      color:gray;
+    }
+    .main-1 a:hover{
+      color:rgb(230, 230, 230);
+    }
+    </style>
+</head>
+<body>
+  <!-- content-1 -->
+  <header>
+    <div class="main">
+
+    <video control autoplay muted loop>
+        <source src="1.mp4"  >
+    </video>
+
+    <nav class="navbar navbar-expand-lg pt-5 pb-5 text-light ">
+      <div class="container">
+        <a class="navbar-brand text-light" href="#">Solar Service</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#">About</a>
+            </li>
+
+            
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#">Service</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Pages
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item " href="#">Action</a></li>
+                <li><a class="dropdown-item " href="#">Another action</a></li>
+                <li><hr class="dropdown-divider "></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light " href="#" tabindex="-1" aria-disabled="true">Contact</a>
+            </li>
+          </ul>
+          
+        </div>
+      </div>
+    </nav>
+   
+    <div class="head text-light">
+      <div class="">   
+         <h1>Solar Power and <br> Renewable energy <br> service website</h1><br>
+    <p>Maecenas id faucibus felis. Cras eu faucibus elit. Vestibulum ex risus, placerat mattis <br> posuere ac, efficitur eleifend nibh<br> Vestibulum ante ipsum primis in faucibus orci luctus et <br >posuere cubilia Curae; Nullam porttitor felis quis nibh finibus, ut ornare nisl placerat.</p><br>
+
+    <button class="btn btn-danger">Read More</button>
+    </div>
+    </div>
+    </header>
+    
+    <!-- content-2 -->
+    <h1 class=" para pt-5 pb-5" >What is   Solar Service?</h1>
+    <div class="main">
+
+    <div class="container">
+
+      <div class="row pb-5 text-center">
+        <div class="col-3 ps-0">
+          <div class="card">
+            <span id="icon" class="fa fa-thumbs-up fs-2 pb-4"></span>
+                  <h4>Network</h4>
+                    <p class="pr">Lorem ipsum dolor sit lorem lorem  amet consectetur adipisicing elit.</p>
+                    <a href="#">Learn More</a>
+
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card">
+            <span id="icon" class="fa-regular fa-gear fs-2 pb-4"></span>
+                  <h4>Residental</h4>
+                    <p class="pr">Lorem ipsum dolor sit <br> amet consectetur adipisicing elit.</p>
+                    <a href="#">Learn More</a>
+
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card">
+            <span id="icon" class="fa fa-thumbs-up fs-2 pb-4"></span>
+                  <h4>Fact</h4>
+                    <p class="pr">Lorem ipsum dolor sit <br> amet consectetur adipisicing elit</p>
+                    <a href="#">Learn More</a>
+
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card">
+            <span id="icon" class="fa fa-regular fa-gear fs-2 pb-4 "></span>
+                  <h4>Home</h4>
+                    <p class="pr" >Lorem ipsum dolor sit <br> amet consectetur adipisicing elit.</p>
+                    <a href="#">Learn More</a>
+
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+</div>
+<!-- content-3 -->
+  <div class="container-fluid" style="background-color: rgb(1, 96, 111, 0.05);">
+    <div class="main">
+      <h1 class="text-center pt-5 pb-3">Learn about our Energy Ecosystem</h1>
+      <div class="container pb-5">
+      <div class="row">
+
+        <div class="col-3">
+          <div class="card text-center" >
+          <img src="panel.jpg" alt="img">
+            <h3>Solar Panel</h3>
+          </div>
+        </div>
+
+        <div class="col-3">
+          <div class="card text-center" >
+          <img src="battery.jpg" alt="img">
+            <h3>Battery</h3>
+          </div>
+        </div>
+
+
+        <div class="col-3">
+          <div class="card text-center" >
+          <img src="charge.jpg" alt="img">
+            <h3>Charging</h3>
+          </div>
+         </div>
+
+         <div class="col-3">
+          <div class="card text-center" >
+          <img src="solarhome.jpg" alt="img">
+            <h3>Smart home</h3>
+          </div>
+          </div>
+
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- content-4 -->
+<div class="container ps-0">
+  <div class="main">
+    <div class="row pt-5 pb-5 ps-0">
+      <div class="col-6">
+        <h2>How does Solar works</h2>
+        <p>Sunshine hits the solar panels and this DC energy flows from the<br><br> panels to your solar inverter. The inverter converts DC to AC.</p>
+
+        <p>Sunshine hits the solar panels and this DC energy flows from the<br><br> panels to your solar inverter. The inverter converts DC to AC.</p>
+      </div>
+
+      <div class="col-6" >
+        <img style="border-radius: 10px;" src="solar.jpg" alt="" width="100%">
+      </div>
+
+    </div>
+  </div>
+</div>
+  
+
+
+
+  
+  <!-- content-5 -->
+    <div class="contianer-fluid "style="background-color: rgb(1, 96, 111, 0.05);" >
+      <div class="main ">
+        <h1 class="text-center pt-5 pb-3">Why choose to work with Solar Service</h1>
+       
+
+        <div class="container pb-5" style=" color: #EEF5DB; ">
+          <div class="row text-center" >
+            <div class="col-4">
+              <div class="card card-1"style="background-color: #00798C;">
+                <span id="icon" class="fa fa-regular fa-gear fs-2 pb-4 "></span>
+                  <h4>Optimized Output</h4>
+                    <p class="pr" >Lorem ipsum lorem dolor sit <br> amet consectetur<br> adipisicing elit.</p>
+                    <a style=" color: #EEF5DB; " href="#">Learn More</a>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="card card-1"style="background-color: #00798C;">
+                <span id="icon" class="fa fa-regular fa-gear fs-2 pb-4 "></span>
+                  <h4>Save Money</h4>
+                    <p class="pr" >Lorem ipsum dolor lore, lorem sit <br> amet consectetur<br> adipisicing elit.</p>
+                    <a style=" color: #EEF5DB; " href="#">Learn More</a>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="card card-1"style="background-color: #00798C;">
+                <span id="icon" class="fa fa-regular fa-gear fs-2 pb-4  "></span>
+                  <h4>Instant Install</h4>
+                    <p class="pr" >Lorem ipsum dolor  lorem loremsit <br> amet consectetur<br> adipisicing elit.</p>
+                    <a style=" color: #EEF5DB; " href="#">Learn More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!-- content-6 -->
+<div class="container pt-5  pb-4 ps-0">
+  <div class="main">
+  <div class="row ">
+    <h2 class="text-center py-3" >Let's see if going solar is right for you</h2>
+    <div class="col-4">
+      <span>  Call<a class="tel" href="tel:+4733378901">+(91) 47 333 78 901</a> now to get a free quote or fill out the form <br></span><br>
+      <p>Thanks to contact for me </p>
+
+    </div>
+
+    <div class="col-4" >
+      <input type="text" id="First name" name="fname" placeholder="First Name" class="form-control rounded-pill mb-3">
+      <input type="text"  placeholder="Phone Number" class="form-control rounded-pill mb-3">
+      <input type="text"  placeholder="Email Address" class="form-control rounded-pill mb-3">
+      
+    </div>
+
+    <div class="col-4">
+      <input type="text" id="First name" name="fname" placeholder="Last Name" class="form-control rounded-pill mb-3">
+      <input type="text"  placeholder="Zip Code" class="form-control rounded-pill mb-3">
+      <button type="submit" class="btn-danger form-control rounded-pill " id="submit">Request Quote</button>
+      
+    </div>
+  </div>
+</div>
+</div>
+<!-- content-7 -->
+<div class="container-fluid" style="background: #00798C;">
+  <div class="main">
+    <h2 class="text-center py-5  " style=" color: #EEF5DB; ">Sunshine improves the Environment</h2>
+    <div class="container text-center  text-light pb-5">
+    <div class="row">
+      <div class="col-3  " style=" color: #EEF5DB; border-right: 1px black solid; ">
+        <h2 class="fw-bold">123+</h2>
+        <p>Solar panels</p>
+      </div>
+      
+      <div class="col-3"style=" color: #EEF5DB; border-right: 1px black solid;">
+        <h2 class="fw-bold">12348</h2>
+        <p>Miles of driving avoided</p>
+      </div>
+      
+      <div class="col-3"style=" color: #EEF5DB; border-right: 1px black solid; ">
+        <h2 class="fw-bold">450+</h2>
+        <p>Tree seedings</p>
+      </div>
+      
+      <div class="col-3" style=" color: #EEF5DB; " >
+        <h2 class="fw-bold">120</h2>
+        <p>Tons of coal not burned</p>
+      </div>
+      
+
+    </div>
+  </div>
+</div>
+</div>
+<div class="container-fluid" style="background-color: black;">
+  <div class="main main-1 ">
+    <div class="container pt-5 pb-3">
+    <div class="row">
+      <div class="col-4" style="color: white;">
+        <h3 >Solar Service</h3>
+        <p style="color: grey;">433 California St, Suite 300, San Francisco, CA 94104</p>
+        <a class="tel" href="tel:+4733378901">+(91) 47 333 78 901</a><br>
+        <br>
+        <a href="www.in"><i class="fa-brands fa-instagram px-2"></i></a>
+        <a href="#"></a><i class="fa-brands fa-linkedin px-2" ></i></a>
+        <a href="#"></a><i class="fa-brands fa-twitter px-2"></i></a>
+        <a href="#"></a><i class="fa-brands fa-facebook px-2"></i></a>
+      </div>
+
+      <div class="col-2" style="color: white;">
+      <div class="row">
+        <div class="col-12 fw-bold pb-3">PRODUCTS</div>
+        <div class="col-12 text-white pb-3"><a href="#">Solar System</a></div>
+        <div class="col-12 pb-3"> <a href="#" >Renewable</a></div>
+        <div class="col-12 pb-3"> <a href="#"> improvements</a> </div>
+        <div class="col-12 pb-3"> <a href="#"> Electric(PV)</a> </div>
+        <div class="col-12 pb-3"> <a href="#"> installation</a> </div>
+      </div> 
+    </div>
+
+    <div class="col-2" style="color: white;">
+      <div class="row">
+        <div class="col-12 fw-bold pb-3">COMPANY</div>
+        <div class="col-12 text-white pb-3"><a href="#">About US</a></div>
+        <div class="col-12 pb-3"> <a href="#" >Join our Team</a></div>
+        <div class="col-12 pb-3"> <a href="#"> Blogs Post</a> </div>
+        <div class="col-12 pb-3"> <a href="#"> Our Products</a> </div>
+        <div class="col-12 pb-3"> <a href="#"> Contacts Us</a> </div>
+      </div> 
+    </div>
+
+  <div class="col-2" style="color: white;">
+      <div class="row">
+        <div class="col-12 fw-bold pb-3">MORE LINKS</div>
+        <div class="col-12 text-white pb-3"><a href="#">What we do</a></div>
+        <div class="col-12 pb-3"> <a href="#" >FAQ's - Help center</a></div>
+        <div class="col-12 pb-3"> <a href="#">Our History</a> </div>
+        <div class="col-12 pb-3"> <a href="#"> How it works</a> </div>
+      </div> 
+    </div>
+
+    <div class="col-2" style="color: white;">
+      <div class="row">
+        <div class="col-12 fw-bold pb-3">LEGAL</div>
+        <div class="col-12 text-white pb-3"><a href="#">Privacy policy</a></div>
+        <div class="col-12 pb-3"> <a href="#" >Terms of use</a></div>
+        <div class="col-12 pb-3"> <a href="#"> Licenses</a> </div>
+        <div class="col-12 pb-3"> <a href="#"> 24/7 Support</a> </div>
+      </div> 
+    </div>
+      
+  </div>
+</div>
+  </div>
+</div>
+</div>
+<div class="Container-fluid bg-dark text-muted text-white py-3 text-center pt-4">
+  <p>© 2024 Solar Service. All rights reserved | Designed by Mohsin Wahdi</p>
+
+
+</div>
+   
+
+</body>
+</html>

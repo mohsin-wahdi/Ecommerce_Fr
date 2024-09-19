@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link href="style.css" rel="stylesheet">
+    <style>
+        .calculator{
+            border: 1px solid gray;
+            border-radius: 3px;
+            width: 200px;
+            background-color: greenyellow;
+            
+        }
+        #display{
+            margin: 10px ;
+            width: 85%;
+            font-size: 30px;
+            background-color: yellow;
+            
+        }.btn-container{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .btn{
+            width: 50px;
+            height: 40px;
+            margin: 5px;
+            font-weight: bold;
+            background-color: yellow;
+            ;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="calculator">
+    <h1 style="text-align: center;">Calculator By Mohsin</h1>
+    <input type="text" id="display" readonly>
+    <div class="btn-container">
+
+        <button class="btn" onclick="crtdisplay = '' ; document.querySelector('#display').value=crtdisplay;" >C</button>
+        <button class="btn"  onclick="crtdisplay = crtdisplay + 1; document.querySelector('#display').value=crtdisplay;" >1</button>
+        <button class="btn" onclick="crtdisplay = crtdisplay + 2; document.querySelector('#display').value=crtdisplay;" >2</button>
+        <button class="btn" onclick="crtdisplay = crtdisplay + '+'; document.querySelector('#display').value=crtdisplay;">+</button>
+        <button class="btn"onclick="crtdisplay = crtdisplay + 3; document.querySelector('#display').value=crtdisplay;" >3</button>
+        <button class="btn" onclick="crtdisplay = crtdisplay + 4; document.querySelector('#display').value=crtdisplay;">4</button>
+        <button class="btn" onclick="crtdisplay = crtdisplay + '-'; document.querySelector('#display').value=crtdisplay;">-</button>
+        <button class="btn"onclick="crtdisplay = crtdisplay + 5; document.querySelector('#display').value=crtdisplay;" >5</button>
+        <button class="btn"onclick="crtdisplay = crtdisplay + 6; document.querySelector('#display').value=crtdisplay;" >6</button>
+        <button class="btn"onclick="crtdisplay = crtdisplay + '*'; document.querySelector('#display').value=crtdisplay;" >*</button>
+        <button class="btn"onclick="crtdisplay = crtdisplay + 7; document.querySelector('#display').value=crtdisplay;" >7</button>
+        <button class="btn"onclick="crtdisplay = crtdisplay + 8; document.querySelector('#display').value=crtdisplay;" >8</button>
+        <button class="btn" onclick="crtdisplay = crtdisplay + '/'; document.querySelector('#display').value=crtdisplay;">/</button>
+        <button class="btn" onclick="
+        let result=eval(crtdisplay);
+            crtdisplay = result;
+            document.querySelector('#display').value=crtdisplay;">=</button>
+        <button class="btn"onclick="crtdisplay = crtdisplay + 9; document.querySelector('#display').value=crtdisplay;">9</button>
+        <button class="btn"onclick="crtdisplay = crtdisplay + 0; document.querySelector('#display').value=crtdisplay;">0</button>
+        <button class="btn"onclick="crtdisplay = crtdisplay + '.'; document.querySelector('#display').value=crtdisplay;">.</button> 
+    </div>
+    </div>
+    <script>
+        let crtdisplay = '';
+        document.querySelector('#display').value=crtdisplay;
+    </script>
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root{
+            --primary-color:rgb(11, 8, 8);
+            --custom-width:330px;
+        }
+        .container{
+            background-color: pink;
+            height: 650px;
+            border: 2px black dashed;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        .box{
+            background-color: greenyellow;
+            border: 2px dashed var(--primary-color);
+            width: 400px;
+            height: 400px;
+            margin: 5px;
+            padding: 5px;
+            overflow: hidden;
+            border-radius: 50px;
+            
+
+            /* box shadow  */
+            /*  X Y BLUR COLOR  negative shadow bhi hota hai  */
+             box-shadow: 10px 20px red;
+            
+            /* blur shadow */
+            box-shadow: 10px 20px 50px red;
+
+            /* shadow ke 4 side ke taraf  */
+            box-shadow: 10px 20px 5px 50px blue;
+
+            /* Shadow andar ke taraf */
+            box-shadow: inset 10px 15px 5px red;
+
+            /* multipe shadow */
+            box-shadow: 10px 20px red , 20px 10px yellow;
+
+        }
+        h1{
+            text-shadow: 10px 15px 2px white;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <img src="logo.jpg" height="10%" width="50%"/>
+            <h1>welcome To Mohsin </h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum necessitatibus, perferendis quasi temporibus mollitia numquam, sed et excepturi labore officiis harum. Quisquam, magnam! Accusamus incidunt impedit cupiditate labore consequuntur similique dolorum, quis eius qui ducimus perferendis, nihil voluptatum reprehenderit voluptatem aspernatur quam eligendi velit possimus! Debitis esse tempore nihil minima, praesentium aut id? Nam ipsam, sit quam sint iure adipisci impedit dolorum suscipit, officia laudantium error veritatis, et saepe tempora odio itaque iste beatae? Molestias itaque accusantium, non odit fuga id cumque natus tempore commodi, laboriosam sapiente numquam? Sunt nostrum quam reiciendis natus id pariatur sed, enim dolores veritatis accusantium magni! Sit eos nesciunt unde eaque nulla repellat? Mollitia, ab a labore non vero sint, obcaecati, natus autem molestiae soluta dolorum quis deleniti qui praesentium. Unde maxime voluptatem ipsa quod sequi perferendis temporibus deserunt nisi libero doloremque expedita, iure quos perspiciatis, dignissimos deleniti tempore voluptatibus cupiditate. Consequuntur neque, eius aliquam sequi eos tenetur sunt iusto nihil voluptatum, obcaecati excepturi dicta animi nulla placeat veniam, ab enim odit. Aperiam quod delectus tempora ut! Quisquam quaerat repellendus modi doloremque neque, maxime nulla sit libero quasi unde corporis expedita officia deserunt corrupti reprehenderit explicabo ipsa nihil, laborum doloribus perspiciatis! Labore eius nemo fugiat.
+
+            </p>
+        </div>
+    </div>
+</body>
+</html>

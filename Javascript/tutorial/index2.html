@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>button Working</title>
+    <style>
+        #add{
+            background-color: chartreuse;
+            color: black;
+            border-radius: 10px;
+            padding: 10px 15px;
+            margin: 10px;
+            border: none;
+            font-weight: bold;
+        }
+        #move{
+            color: black;
+            border-radius: 10px;
+            padding: 10px 15px;
+            margin: 10px;
+            border: 2px solid black;
+            margin: 10px;
+            padding: 10px 40px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <button id="add"  onclick="item++; document.querySelector('#summary').innerText = `Your bags has add ${item} item`;
+    ";>Add to bag </button>
+    <button id="Move" onclick="item--; document.querySelector('#summary').innerText=`Your bags has add ${item} item`";> Move to Wishlist</button>
+
+
+    <button id="two"  onclick="item=item+2; document.querySelector('#summary').innerText=`Your bags has add ${item} item`";>Add 1+1 sale item </button>
+
+    <h1 id ="summary"></h1>
+
+    <script>
+        let item =0
+       document.querySelector('#summary').innerText = `Your bags has add ${item} item`;
+
+    </script>
+    
+</body>
+</html>

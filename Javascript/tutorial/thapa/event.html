@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Keyboard</title>
+    <style>
+      body {
+        display: contents;
+        justify-content: center;
+        align-items: center;
+      }
+      .keyCode,
+      .keyCode,
+      .eventtype {
+        color: yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <input type=""  id="myinput" placeholder="Type Something..">
+    <div class="output">
+        <p class="key Pressed">Key Pressed</p>
+        <p class="keyCode">key Code</p>
+        <p class="charcode">Char code</p>
+        <p class="eventtype">eventtype</p>
+    </div> -->
+
+    <!-- Mouseevent -->
+
+    <!-- onclick="alert('hello')";  inline event -->
+
+    <button style="margin: 100px" id="btn">Click</button>
+
+    <button style="margin: 100px" id="btn2">Click2</button>
+
+    <script>
+      document.getElementById("btn").onclick = function () {
+        alert("hellooo");
+      };
+
+      document.getElementById("btn2").ondblclick = function () {
+        alert("hellooo");
+      };
+
+    //   document.getElementById("btn").onmousemove = function () {
+    //     alert("hellooo");
+    //   };
+
+    //   document.getElementById("btn2").onmouseleave = function () {
+    //     alert("byy");
+    //   };
+
+    document.getElementById("btn2").onmouseover = function () {
+        alert("hellooo");
+      };
+    </script>
+  </body>
+</html>

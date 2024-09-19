@@ -1,0 +1,819 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Shop</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha3 84-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
+</head>
+
+
+<div class="container mt-3 header">
+    <div class="row">
+        <div class="col-xl-5 d-none d-xl-block">
+         <div class="dropdown">
+            <div class="btn btn-white dropdown-toggle" data-bs-toggle="dropdown" style="font-weight: 600;">Home</div>
+<ul class="dropdown-menu" style="border: none;background-color: rgb(248, 242, 243);">
+    <li>pizza place</li>
+    <li>coffee house</li>
+    <li>Gourmet Getway</li>
+    <li>Flavor Flesta</li>
+    <li>Epicurean Explorer</li>
+    <li>Epicurean Explorer dark</li>
+    
+            </ul>
+            <div class="btn btn-white dropdown-toggle" data-bs-toggle="dropdown" style="font-weight: 600;">
+                Shop
+               </div>
+               <ul class="dropdown-menu" style="border: none;background-color: rgb(248, 242, 243);">
+                <li> Shop</li>
+                <li> Shop Details</li>
+                <li> Shop Details Coffee</li>
+                <li>Cart</li>
+                <li>Checkout</li>
+
+               </ul>
+
+               
+         <div class="btn btn-white dropdown-toggle" data-bs-toggle="dropdown" style="font-weight: 600;">Blog
+
+
+         </div>
+         <ul class="dropdown-menu" style="border: none;background-color: rgb(248, 242, 243);">
+            <li> Blog Grid One</li>
+            <li>Blog Grid Two</li>
+            <li>Blog Stainder</li>
+            <li>Blog dETAILS</li>
+            
+
+         </ul>
+         <div class="btn btn-white dropdown-toggle" data-bs-toggle="dropdown" style="font-weight: 600;">Page</div>
+
+         
+         <ul class="dropdown-menu" style="border: none;background-color: rgb(248, 242, 243);">
+            <li>About</li>
+            <li>Chefs</li>
+            <li>FAQ</li>
+            <li>Reservation</li>
+         </ul>
+         <div class="btn btn-white dropdown-toggle" data-bs-toggle="dropdown" style="font-weight: 600;">Contact
+            
+         </div>
+         <ul class="dropdown-menu" style="border: none;background-color: rgb(248, 242, 243);">
+         <li>Contact</li>
+         <li>Contact Map</li>
+         </ul>
+         </div> 
+        </div>
+<div class="col-2">
+    <h2 class="fw-bold" style="text-decoration: solid; justify-content: space-between;">eicurean</h2>
+</div>
+<div class="col-xl-4 col-10  text-end" style="font-size: 20px; justify-content: space-between;">
+    <i class="fa fa-search" aria-hidden="true ms-sm-3"></i>  
+    <i class="far fa-heart ms-sm-3"></i>
+    <i class="fa-solid fa-cart-shopping ms-3"></i>
+    <i class="bi bi-person-circle ms-3"></i>
+    <i class="fa-solid fa-circle-user ms-sm-5" ></i>
+    <span>
+        Sign in.</span>
+
+</div>
+    </div>
+
+</div>
+
+
+ <main>
+    <div class="" style="padding-top: 90px;">
+        <div class="text-center">
+    <span class="fw-bold ">WELCOME TO OUR</span>
+    <h1 class="mt-3 text-center" style="font-size: 60px; ">Epicureans Artisanal Pizza<br> Experience</h1>
+    </div>
+    <div class="container">
+        <div class="row text-danger">
+            <div class="col-lg-3" style="padding-left: 70px;">
+                <h3 style="padding-top: 100px;">Margherita
+                </h3>
+                <h3 style="padding-top: 30px; ">Meatball Mania</h3>
+                <h3 style="padding-top: 30px;">Vegan BBQ
+                </h3>
+
+                <div class="" style="height: 10vh; border-left: 1px solid #000;"></div>
+                <span class="display-1 ">"</span>
+                <span class=" text-muted">Lorem ipsum dolor sit amet consectetur,<br> adipisicing elit.<br> Laborum ut impedit provident.<br>expedita cum.</span>
+                <div class="" style="height: 10vh; border-left: 1px solid#000;"></div>
+
+                    <button class="btn btn-danger">Explorer Our Menu</button>
+
+            </div>
+<div class="col-lg-6">
+    <img src="https://epicurean.netlify.app/epicurean/assets/images/pizza/hero-pizza-2.png" style="width: 100%;" alt="">
+
+</div>
+<div class="col-lg-3 text-end">
+    <div class="text-dark" style="padding-top: 70px;">
+    <span class="fs-1">80+</span><br>
+    <span class="fw-bold fs-4 ms-4">Menu items For You</span>
+    <div class="mt-4" style="height: 10vh; border-right: 1px solid black;"></div>
+        <span class="fs-1 ">12+</span><br>
+        <span class="fw-bold fs-4 ">Years We Serve You</span>
+        <div class="mt-4" style="height: 10vh; border-right: 1px solid black">
+
+        </div>
+        <span class="fs-1">100+</span><br>
+<span class="fw-bold fs-4">Great Master Che</span>
+        <div class="mt-4" style="height:10vh; border-right:1px solid #000"></div>
+
+    
+</div>
+</div>
+        </div>
+
+    </div>
+
+
+  </main> 
+
+  
+  <div class="main">
+
+        
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <h1 class="text-white
+                ">We Offer You More<br>Than 50% Discount in</h1>
+                <div class="btn btn-danger my-4" style="height: 40px; width: 180px; background-color: black; color: red;outline: red; border-radius: 25%;">Get now</div>
+
+            </div>
+            
+            <div class="col-lg-6">
+                <div class="row">
+                    <div class="col-sm-4 d-flex justify-content-center">
+                        <div class="text-center">
+                        <div class="box ">
+                        <h1>21</h1></div>
+                        <h3>hour</h3>
+                    </div>
+                    </div>
+                   <div class="col-sm-4 d-flex justify-content-center  ">
+                    <div class="text-center">
+                     <div  class="box">
+                    
+                    <h1>38</h1></div>
+                    <h3>minutes</h3>
+
+                   </div>
+                    
+                </div>
+               
+               
+               <div class="col-sm-4 d-flex justify-content-center">
+                <div class="text-center">
+                <div class="box">
+                <h1>17</h1>
+                </div>
+                <h3>seconds</h3>
+
+
+               </div> 
+</div>
+            </div>
+        </div> 
+
+
+    </div>
+    </div>
+    </div>
+  
+  
+
+    <div class="d-flex align-items-center justify-content-center mt-5">
+    <div  style="border-top: 1px solid red; width: 50px; "></div>
+    <span class=" text-danger fw-bold">Why Choose Us</span>
+    <div  style="border-top: 1px solid red; width: 50px;"></div><br>
+ </div> 
+
+
+<h1 class="text-center fw-bold">Choose THe Best pizza</h1> 
+
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-lg-3 col-sm-12 col-md-6 ">
+            <i class="fa-solid fa-certificate fs-1"></i>
+            <h3 class="mt-4">The Highest Quality</h3>
+            <span>Here are many variations <br>of passages of Lorem Ipsum available<br> but.</span>
+<h3>
+    <i class="fa-solid fa-certificate fs-1 mt-5"></i> 
+    <h3>Best Food Taste</h3> 
+    <span>Lorem ipsum dolor sit<br> amet consectetur adipisicing<br> elit. Quasi magni esse obcaecati</span> 
+</h3>
+
+
+        </div>  
+<div class="col-lg-6 col-sm-12">
+    <img src="https://epicurean.netlify.app/epicurean/assets/images/pizza/choose-pizza.png" style="width: 100%;" alt="">
+
+</div>
+<div class="col-lg-3 col-sm-12">
+    <i class="fa-solid fa-certificate fs-1"></i>
+    <h3 class="mt-4">The Best Ingredients</h3>
+    <span class="">Lorem ipsum dolor sit amet<br> consectetur adipisicing elit.<br> </span>
+
+    <i class="fa-solid fa-certificate fs-1 mt-5"></i>
+    <h3 class="mt-4">The Best Ingredients</h3>
+    <span>Lorem ipsum dolor sit amet <br>consectetur adipisicing elit.</span>
+</span>
+
+
+</div>
+    </div>
+
+
+</div>
+<div class="container">
+
+    <div class="d-flex align-items-start justify-content-start">
+
+    
+    <div style="border-top: 1px solid red; width: 50px; margin-top: 14px;"></div>
+    <span class="ms-2 text-danger">Special Deals.</span><br>
+  
+    </div>
+
+
+</div>
+<div class="container">
+    <h1 class="mt-2">
+
+        Our Featured Deals</h1>
+
+</div>
+<div class="container">
+    <div class="row mt-5">
+        <div class="col-lg-4">
+            <diV class="card border-0">
+                <img src="https://epicurean.netlify.app/epicurean/assets/images/pizza/special-pizza-1.png" alt="">
+                <div class="card-body">
+                    <h4 class="">pepperonic prefection pizza</h4>
+                    <span class="text-warning fw-bold fs-1 mt-3">*****</span><br>
+                    <span class="fw-bold fs-3">$25.00</span>
+                    <span class="fs-5" style="text-decoration: line-through; color: #433939;">
+
+                   $50 </span>
+                    
+   </div>
+
+            </diV>
+
+        </div>
+<div class="col-lg-4">
+    <div class="card border-0">
+        <img src="https://epicurean.netlify.app/epicurean/assets/images/pizza/special-pizza-2.png"
+         alt="">
+         <div class="card-body">
+            <h4 class="">pepperonic prefection pizza</h4>
+            <span class="fs-1 fw-bold text-warning mt-3">*****</span><br>
+            <span class="fw-bold fs-3"
+            >$25.00</span>
+            <span class="" style="text-decoration: line-through; color: #372d2d;">$50</span>
+
+         </div>
+
+    </div>
+
+</div>
+<div class="col-lg-4">
+    <div class="card border-0">
+        <img src="https://epicurean.netlify.app/epicurean/assets/images/pizza/special-pizza-3.png" alt="">
+        <div class="card-body">
+            <h4>pepperonic prefection pizza</h4>
+            <span class="fw-bold fs-1 text-warning">*****</span><br>
+<span class="fw-bold fs-3">$25.00</span>
+<span class="" style="text-decoration: line-through; color: #000;">$50</span>
+        </div>
+
+    </div>
+
+</div> 
+    </div>
+
+</div>
+
+    
+</div>
+<div class="colntainer-fluid" style="background-color: rgba(227, 223, 223, 0.887);">
+
+
+<div class="container mt-4">
+<div class="d-flex justify-content-start align-items-start ">
+
+
+    <div class="" style=" border-top: 1px solid red; width: 50px;margin-top: 14px; "></div>
+    <div  class="ms-3 text-danger">About Us</div>
+  </div>
+
+   
+    
+</div>
+<div class="container ">
+    <div class="row">
+        <div class="col-lg-6 mt-3">
+            <h1 class="fw ">Epicurean Pizzeria, Where<br> Flavor Meets Artistry</h1>
+            <div class=" mt-5">Here are many variations of passages of Lorem Ipsum available but majority<br>have suffered alteration in some form from injected humour, or randomized<br> words which don't looking even slightly believable. If you are going have<br> suffered alteration.</div><br>
+            <div class="row" >
+                <div class="col-5 fw-bold ">
+            <i class="text-danger fa-regular fa-circle-check"></i>
+            <span>zy Ambiance and Savor</span><br>
+            <i class=" text-danger fa-regular fa-circle-check"></i>
+            <span>zy Ambiance and Savor</span>
+            <button class="btn btn-outline-danger px-3 mt-4" style="border-radius: 20px">Know More</button>
+</div>
+<div class="col-5 fw-bold ">
+    <img src="  https://epicurean.netlify.app/epicurean/assets/images/about/ceo-img.png" style="width: 100px;height: 100px; border-radius: 100%;"  alt="">
+
+</div>
+</div>
+        </div>
+
+<div class="col-lg-6 mt-5 text-center" style="position: relative;">
+    <img src="https://epicurean.netlify.app/epicurean/assets/images/pizza/about-img-1.png" style="width: 100%; height: 60vh;" alt=""><br>
+    <img src="https://epicurean.netlify.app/epicurean/assets/images/pizza/about-img-2.png" alt="" style="position: absolute; right: 150px; top: 250px; width: 250px; border:7px solid white; border-radius: 20px;">
+
+
+</div>
+    </div>
+
+</div>
+</div>
+<div class="container" style="margin-top: 100px;">
+    <div class="d-flex justify-content-center align-items-center">
+    <div class="me-2" style="border-top: 1px solid red; width: 50px;"></div>
+<span class="text-danger">Our Main Menu</span>
+<div class="ms-2" style="border-top: 1px solid red; width: 50px;"></div>
+</div>
+<h1 class="text-center mt-2">
+    Choose The Best Pizza
+</h1>
+</div>
+<div class="container  content">
+    <div class="row">
+        <div class="col-lg-6 mb-3">
+            <div class="card p-3">
+                <div class="row">
+                    <div class="col-2">
+                        <img src="https://epicurean.netlify.app/epicurean/assets/images/pizza/menu-pizza-1.png" alt="">
+        
+                    </div>
+        
+        
+        
+                    <div class="col-9">
+                        <h4> Truffle Tango Pizza</h4>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores, nobis.
+                    </div>
+                    <div class="col-1 d-flex align-items-center">
+                        <span>.....</span>
+                        <span>$7</span>
+                    </div>
+        
+                </div>
+            </div>
+        
+        
+        </div>
+
+
+        
+        <div class="col-lg-6 mb-3">
+            <div class="card p-3">
+                    <div class="row">
+                <div class="col-2">
+                    <img src="https://epicurean.netlify.app/epicurean/assets/images/pizza/menu-pizza-1.png" alt="">
+
+                </div>
+
+            
+
+            <div class="col-9">
+                <h4> Truffle Tango Pizza</h4>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores, nobis.
+                    </div>
+                    <div class="col-1 d-flex align-items-center">
+                        <span>.....</span>
+                        <span>$7</span>
+                    </div>
+
+            </div>
+            </div>
+    
+
+    </div>
+
+
+    
+    <div class="col-lg-6 mb-3">
+        <div class="card p-3">
+                <div class="row">
+            <div class="col-2">
+                <img src="https://epicurean.netlify.app/epicurean/assets/images/pizza/menu-pizza-1.png" alt="">
+
+            </div>
+
+        
+
+        <div class="col-9">
+            <h4> Truffle Tango Pizza</h4>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores, nobis.
+                </div>
+                <div class="col-1 d-flex align-items-center">
+                    <span>.....</span>
+                    <span>$7</span>
+                </div>
+
+        </div>
+        </div>
+
+
+</div>
+
+
+<div class="col-lg-6 mb-3">
+    <div class="card p-3">
+            <div class="row">
+        <div class="col-2">
+            <img src="https://epicurean.netlify.app/epicurean/assets/images/pizza/menu-pizza-1.png" alt="">
+
+        </div>
+
+    
+
+    <div class="col-9">
+        <h4> Truffle Tango Pizza</h4>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores, nobis.
+            </div>
+            <div class="col-1 d-flex align-items-center">
+                <span>.....</span>
+                <span>$7</span>
+            </div>
+
+    </div>
+    </div>
+
+
+</div>
+
+
+<div class="col-lg-6 mb-3">
+    <div class="card p-3">
+            <div class="row">
+        <div class="col-2">
+            <img src="https://epicurean.netlify.app/epicurean/assets/images/pizza/menu-pizza-1.png" alt="">
+
+        </div>
+
+    
+
+    <div class="col-9">
+        <h4> Truffle Tango Pizza</h4>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores, nobis.
+            </div>
+            <div class="col-1 d-flex align-items-center">
+                <span>.....</span>
+                <span>$7</span>
+            </div>
+
+    </div>
+    </div>
+
+
+</div>
+
+
+<div class="col-lg-6 mb-3">
+    <div class="card p-3">
+            <div class="row">
+        <div class="col-2">
+            <img src="https://epicurean.netlify.app/epicurean/assets/images/pizza/menu-pizza-1.png" alt="">
+
+        </div>
+
+    
+
+    <div class="col-9">
+        <h4> Truffle Tango Pizza</h4>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores, nobis.
+            </div>
+            <div class="col-1 d-flex align-items-center">
+                <span>.....</span>
+                <span>$7</span>
+            </div>
+
+    </div>
+    </div>
+
+
+</div>
+
+</div>
+</div>
+
+<div style="background-color: rgba(242, 242, 242, 0.882);">
+<div class="container">
+    <div class="d-flex justify-content-center align-items-center mt-5">
+    <div class="me-2" style="border-top: 1px solid red; width: 40px; "> </div>
+    <span class="text-danger">Master Chefs</span>
+    <div class="ms-2" style="border-top: 1px solid red; width: 40px;"> </div>
+</div>
+<h1 class="fw-bold text-center">Our Professional Chefs</h1>
+
+
+<div class="container">
+    <div class="row  mt-4">
+        <div class="col-lg-3 col-md-6">
+    
+            <img src="https://epicurean.netlify.app/epicurean/assets/images/chef/pizza-chef-1.png" style="width: 100%; border-radius: 20px;" alt="">
+          
+        
+
+
+        
+
+            <h3 class="text-center fw-bold mt-2">Alexander Davis
+            </h3>
+
+    
+
+    </div>
+
+    <div class="col-lg-3 col-md-6">
+        <img src="https://epicurean.netlify.app/epicurean/assets/images/chef/pizza-chef-2.png" style="width: 100%;border-radius: 20PX;" alt="">
+        <h3 class="text-center fw-bold mt-2">Isabella White
+        </h3>
+
+    </div> 
+    <div class="col-lg-3 col-md-6">
+        <img src="https://epicurean.netlify.app/epicurean/assets/images/chef/pizza-chef-2.png" style="width: 100%; border-radius: 20px;" alt="">
+        <h3 class="text-center fw-bold fw-bold mt-2">Michael Martinez</h3>
+   </div>
+            <div class="col-lg-3 col-md-6">
+                <img src="https://epicurean.netlify.app/epicurean/assets/images/chef/pizza-chef-4.png" style="width: 100%; border-radius: 20px;" alt="">
+                <h3 class="text-center fw-bold mt-2">Amelia Harris</h3>
+
+            </div>
+</div>
+</div>
+</div>
+</div>
+<div class="container mt-5">
+    <div class="d-flex justify-content-start align-items-center">   
+         <div style="border-top: 1px solid rgba(217, 60, 60, 0.508); width: 50px;"></div>
+    <span class="ms-2 text-danger">Our Testimonial</span>
+</div>
+<h1>Our Featured Deals</h1>
+
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-4">
+            <img src="https://epicurean.netlify.app/epicurean/assets/images/testimonial/pizza.png" style="width: 100%;" alt="">
+            <br>
+            <img src="https://epicurean.netlify.app/epicurean/assets/images/testimonial/testimonial-anim-1.svg" style="position: absolute;margin-top: -200px;
+            margin-left:-30px;" alt="">
+
+        </div>
+<div class="col-lg-8">
+    <h4>
+     
+        
+        "Epicurean has become my daily escape into a world of exquisite coffee. The team's dedication of delivering a top-notch experience is evident in every cup. They have turned me into a coffee enthusiast!"</h4>
+        
+        <div style="border: 1px solid rgba(0, 0, 0, 0.18); margin-top: 50px; "></div>
+        <div class="row">
+            
+            <div class="col-8">
+
+        <h4 class="mt-5">Mai Androson</h4>
+        <span>clint form Envate</span>
+        </div>
+        <div class="col-4">
+         <div class="fw-bold fs-1 mt-4 " style="color: #fd9900;">*****</div>
+        </div>
+    </div>
+</div>
+    </div>
+
+</div> 
+<div class="ritu">
+<div class="container py-5">
+    <div class="row">
+        <div class="col-lg-6">
+            <div class="d-flex align-items-center my-3">
+           <div class="" style="border-top: 1px solid rgba(248, 243, 243, 0.921); width: 50px;">
+
+           </div> 
+           
+           <div class="text-white ms-3 " >Book a Table</div>
+           </div>
+           <h1 class="text-white">Get Unlimited Discount and Offers on Reservation</h1>
+           <span class="fw-bold text-white">There are many variations of passages of Lorem Ipsum form, by injected humour, or randomised words which don't look even slightly believable.</span>
+           <span>save on first Booking and set</span>
+           <img src="https://epicurean.netlify.app/epicurean/assets/images/pizza/cta.svg" alt="">
+           
+           <span class="btn btn-outline-danger" style="border-radius: 20px;">Get the coupan  cord</span>
+
+        </div>
+
+    
+        <div class="col-lg-6 mt-3">
+            <div class="rittu px-5" style="border-radius: 20px;">
+          <div class="row">
+            <div class="col-lg-6 p-3">    
+                <input type="Your Name" placeholder="Your Name"  class="form-control">
+            </div>
+            <div class="col-lg-6 p-3">
+                <input type="text" class="form-control" placeholder="Last Name">
+    
+            </div>
+
+
+
+            <div class="col-lg-6 p-3">    
+                <input type="Your Name" placeholder="phone"  class="form-control">
+            </div>
+            <div class="col-lg-6 p-3">
+                <input type="date" class="form-control " placeholder="date">
+    
+            </div>
+            <div class="col-12">
+                <input type="" class="form-control" placeholder="Your Name">
+
+            </div>
+
+            <div class="col-lg-6 p-3">    
+                <input type="Your Name" placeholder="time"  class="form-control">
+            </div>
+            <div class="col-lg-6 p-3">
+                <input type="time" class="form-control" placeholder="time">
+    
+            </div>
+            <div class="col-12 btn btn-dark mb-3" style="border-radius: 20px;" >
+                conform registation
+
+            </div>
+
+        
+
+        </div>
+
+    </div>
+</div>
+    </div>
+</div>
+</div>
+<div class="container mt-5
+
+">
+<div class="d-flex align-items-center justify-content-center ">
+
+
+    <div style="border-top: 1px solid red;width: 50px; margin-right: 5px; "></div>
+    <div class="text-danger ">Blog & News</div>
+    <div style="border-top: 1px solid red;width: 50px; margin-left: 5px;"></div>
+ </div>
+    <h1 class="text-center">Our Latest News & Blogs
+    </h1>
+
+</div>
+
+<div class="container">
+<div class="mannu">
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="card border-0">
+<img src="https://epicurean.netlify.app/epicurean/assets/images/pizza/blog-1.png" style="width: 100%;" alt="">
+<div class="card-body">
+    <h3 class="text-dark ">Slice Chronicles, Behind the Scenes at Our Epicurean</h3>
+
+</div>
+                </div>
+
+            </div>
+            <div class="col-lg-4">
+                <div class="card border-0">
+                    <img src="https://epicurean.netlify.app/epicurean/assets/images/pizza/blog-2.png" style="width: 100%;" alt="">
+<div class="card-body">
+    <h3 class="text-dark">Pizza Passion Unleashed, Exploring Our Culinary World</h3>
+
+</div>
+                </div>
+
+            </div>
+            <div class="ram col-lg-4">
+                <div class="card border-0">
+                <img src="https://epicurean.netlify.app/epicurean/assets/images/pizza/blog-3.png" style="width: 100%;" alt="">
+                <div class="card-body">
+                    <h3 class="text-dark">Flavors Unveiled, Epicurean's Pizza Tasting Adventures</h3>
+
+                </div>
+                    
+                </div>
+
+            </div>
+
+        </div>
+
+</div>
+</div>
+<div class="ramesh">
+<div class="container">
+    <div class="row ">
+        <div class="col-lg-6 mt-5">
+            <div class="row">
+                <div class="col-lg-4 text-white">
+                    <h5>Product</h5>
+                    <span>Breakfast</span><br>
+                    <span>Lunch</span><br>
+                    <span>Desserts</span><br>
+                    <span>Dinner</span><br>
+                    <span>Book a table</span><br>
+                    <span>Our Chefs</span><br>
+
+                </div>
+                <div class="col-lg-4 text-white">
+                    <h5>Information</h5>
+                    <span>FAQ</span><br>
+                    <span>Blog</span><br>
+                    <span>Support</span><br>
+                    
+
+                </div>
+                <div class="col-lg-4 text-white">
+                    <h5>Company</h5>
+                    <span>About us</span><br>
+                    <span>Our Menu</span><br>
+                    <span>Contact us</span><br>
+                    <span>Epicurean</span><br>
+
+                </div>
+
+            </div>
+
+        </div>
+        
+
+        
+<div class="col-lg-6 mt-5">
+    <div class="card">
+    <img src="https://epicurean.netlify.app/epicurean/assets/images/footer-subscribe-bg.png" style="width: 100%; border-radius: 20px;" alt="">
+<div class="card-img-overlay text-white ms-3 ">
+    <h4 class="mt-2">Subscribe</h4>
+    <h2 class="mt-2">Our News letter</h2>
+    <span class="mt-2">To Get Regular Update</span>
+    
+
+<div class="row">
+<div class="col-lg-6">
+<div class="card-body">
+    <input class="form-control" placeholder="Enter Your Email">
+
+</div>
+</div>
+<div class="col-lg-6 mt-3">
+    <button class="btn btn-danger"> Subscribe</button>
+
+</div>
+
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="" style="border-top: 1px solid #1a4caf;">
+
+</div>
+
+</div>
+
+</div>
+</div>
+
+
+
+
+<body>
+    
+</body>
+</html>
