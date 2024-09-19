@@ -234,8 +234,11 @@ body {
 
 /* Featrues Product End */
 
+/* Banner section */
 #banner{
   display: flex;
   flex-direction: Center
   ;
+
 }
+/* Banner section end */
