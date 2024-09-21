@@ -235,12 +235,103 @@ body {
 /* Featrues Product End */
 
 /* Banner section */
-#banner{
+#banner {
+  margin-top: 100px;
+  margin-bottom: 100px;
   display: flex;
-  flex-direction: Center
-  ;
-
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url("img/banner/b2.jpg");
+  width: 100%;
+  height: 40vh;
+  background-size: cover;
+  background-position: center;
+}
+#banner h4 {
+  font-size: 16px;
+  color: #fff;
+}
+#banner h2 {
+  font-size: 30px;
+  color: #fff;
+  padding: 10px 0;
+}
+#banner span {
+  color: #ef3636;
+}
+button.normal {
+  font-size: 14px;
+  padding: 15px 30px;
+  color: #000;
+  background-color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition: 0.2s;
+}
+button.normal:hover {
+  background-color: #088178;
+  color: #fff;
 }
 /* Banner section end */
 
-/*  */
+/* sm-banner */
+#sm-banner {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+#sm-banner .banner-box {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: center;
+  background-image: url("img/banner/b17.jpg");
+  min-width: 500px;
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+  padding: 30px;
+}
+#sm-banner .banner-box2 {
+  background-image: url(img/banner/b10.jpg);
+}
+#sm-banner h4 {
+  font-weight: 300;
+  font-size: 20px;
+  color: #fff;
+}
+#sm-banner h2 {
+  font-weight: 800;
+  font-size: 28px;
+  color: #fff;
+}
+#sm-banner span {
+  font-weight: 500;
+  font-size: 15px;
+  color: #fff;
+  padding-bottom: 15px;
+}
+button.white {
+  font-size: 13px;
+  font-weight: 600;
+  padding: 11px 18px;
+  color: #fff;
+  background-color: transparent;
+  border-radius: 4px;
+  cursor: pointer;
+  border: 1px solid #fff;
+  outline: none;
+  transition: 0.2s;
+}
+#sm-banner .banner-box :hover {
+  background-color: #189189;
+  color: #fff;
+}
+/* sm-banner  end */
