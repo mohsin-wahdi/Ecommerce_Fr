@@ -5,7 +5,7 @@
   box-sizing: border-box;
   font-family: "Spartan", sans-serif;
 }
-.box-padding{
+.box-padding {
   padding: 0 80px;
 }
 h1 {
@@ -290,14 +290,14 @@ button.normal:hover {
 }
 #sm-banner .banner-box {
   margin-top: 100px;
-  margin-bottom: 100px;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
   text-align: center;
   background-image: url("img/banner/b17.jpg");
-  min-width: 500px;
+  min-width: 650px;
   height: 50vh;
   background-size: cover;
   background-position: center;
@@ -341,18 +341,19 @@ button.white {
 }
 
 #banner-3 .banner-box {
-  margin-bottom: 100px;
+  /* margin-bottom: 100px; */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
   text-align: center;
-  background-image: url("img/banner/b17.jpg");
-  min-width: 500px;
-  height: 50vh;
+  background-image: url("img/banner/b7.jpg");
+  min-width: 30%;
+  height: 30vh;
   background-size: cover;
   background-position: center;
   padding: 30px;
+  margin-bottom: 30px;
 }
 #banner-3 h2 {
   color: #fff;
@@ -360,7 +361,7 @@ button.white {
   font-size: 22px;
 }
 #banner-3 h3 {
-  color: #fff;
+  color: #d84444;
   font-weight: 800;
   font-size: 15px;
 }
@@ -368,7 +369,26 @@ button.white {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  padding: 0 80px;
+  padding: 100px 80px;
+}
+#banner-3 .banner-box2 {
+  background-image: url(img/banner/b4.jpg);
+}
+#banner-3 .banner-box3 {
+  background-image: url(img/banner/b18.jpg);
 }
 
 /* sm-banner  end */
+
+/* Newsletter start  */
+#newsletter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  background-image: url(img/banner/b14.png);
+  background-repeat: no-repeat;
+  background-position: 20% 30%;
+  background-color: #041e42;
+}
+/* Newsletter End  */
