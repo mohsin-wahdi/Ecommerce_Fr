@@ -5,6 +5,9 @@
   box-sizing: border-box;
   font-family: "Spartan", sans-serif;
 }
+.box-padding{
+  padding: 0 80px;
+}
 h1 {
   font-size: 50px;
   line-height: 64px;
@@ -118,14 +121,15 @@ body {
 
 /* Featrues  start */
 #features .fe-box {
+  padding: 0 80px;
   width: 180px;
   text-align: center;
   padding: 25px 15px;
   box-shadow: 50px 20px 34px rgba(0, 0, 0, 0.03);
   border: solid 1px #cce7d0;
   margin-top: 50px;
-  margin-bottom: 50px;
-  margin-right: 30px;
+  margin-bottom: 30px;
+  margin-right: 20px;
   margin-left: 20px;
 }
 #features .fe-box:hover {
@@ -299,9 +303,7 @@ button.normal:hover {
   background-position: center;
   padding: 30px;
 }
-#sm-banner .banner-box2 {
-  background-image: url(img/banner/b10.jpg);
-}
+
 #sm-banner h4 {
   font-weight: 300;
   font-size: 20px;
@@ -334,4 +336,39 @@ button.white {
   background-color: #189189;
   color: #fff;
 }
+#sm-banner .banner-box2 {
+  background-image: url(img/banner/b10.jpg);
+}
+
+#banner-3 .banner-box {
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: center;
+  background-image: url("img/banner/b17.jpg");
+  min-width: 500px;
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+  padding: 30px;
+}
+#banner-3 h2 {
+  color: #fff;
+  font-weight: 900;
+  font-size: 22px;
+}
+#banner-3 h3 {
+  color: #fff;
+  font-weight: 800;
+  font-size: 15px;
+}
+#banner-3 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0 80px;
+}
+
 /* sm-banner  end */
