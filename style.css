@@ -386,13 +386,54 @@ button.white {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  background-image: url(img/banner/b14.png);
+  background-image: url("img/banner/b14.png");
   background-repeat: no-repeat;
   background-position: 20% 30%;
   background-color: #041e42;
+  padding: 40px 80px;
+  margin-bottom: 50px;
+}
+.newstext h4 {
+  color: #fff;
+  font-size: 30px;
+}
+.newstext p {
+  color: #818ea0;
+  font-size: 15px;
+}
+.newstext p span {
+  color: #ecc363;
+}
+#newsletter input {
+  height: 3.125rem;
+  border-radius: 4px;
+  padding: 0 1.25em;
+  font-size: 14px;
+  width: 100%;
+  outline: none;
+  border: solid 1px transparent;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+#newsletter button {
+  background-color: #088178;
+  color: #fff;
+  white-space: nowrap;
+  border-top-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+#newsletter .form {
+  display: flex;
+  width: 40%;
 }
 /* Newsletter End  */
 
 /* <!-- Footer  Start--> */
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* align-items: ; */
+}
 
 /* <!-- Footer  End--> */
